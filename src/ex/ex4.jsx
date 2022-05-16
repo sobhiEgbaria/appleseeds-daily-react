@@ -1,7 +1,32 @@
 import React from "react";
 
-function Ex4() {
-  return <div>4</div>;
-}
+const Quiz = () => {
+  return (
+    <>
+      <QuizTitle />
+      <Q1 />
+      <Q1Input />
+      <Q2 />
+      <Q2Input />
+    </>
+  );
+};
 
-export default Ex4;
+const QuizTitle = () => {
+  return <h1 className="title">how do you like front end</h1>;
+};
+const Q1 = () => {
+  return <p className="firstQ">how much you love front end</p>;
+};
+const Q1Input = () => {
+  return <input type="range" name="q1Input" id="" />;
+};
+const Q2 = () => {
+  return <p className="secondQ">what your favorite front end topic </p>;
+};
+
+const Q2Input = () => {
+  return <input type="text" name="secondInput" id="" />;
+};
+
+export default Quiz;

@@ -17,10 +17,10 @@ class App extends react.Component {
         
         <EX1 />
         <Ex2 /> 
-        <Ex4 />
-
-        */}
         <Ex3 />
+        */}
+
+        <Ex4 />
       </>
     );
   }
