@@ -1,7 +1,23 @@
 import React from "react";
 
-const Cards = () => {
-  return;
-};
+class Ex6 extends React.Component {
+  render() {
+    return (
+      <div>
+        <Btn
+          text="important"
+          styling={{ fontWeight: "bold", margin: "50px" }}
+        />
+        <Btn text="not important" />
+      </div>
+    );
+  }
+}
 
-export default Cards;
+class Btn extends React.Component {
+  render() {
+    return <button style={this.props.styling}> {this.props.text} </button>;
+  }
+}
+
+export default Ex6;

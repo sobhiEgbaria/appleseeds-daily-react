@@ -3,18 +3,18 @@ import React from "react";
 const Buttons = () => {
   return (
     <>
-      <Important value="Important" />
-      <NotImportant value="NotImportant" />
+      <TheButton
+        value="Important"
+        style={{ fontWeight: "bold", margin: "5px" }}
+      />
+
+      <TheButton value="NotImportant" />
     </>
   );
 };
 
-const Important = (props) => {
-  return <button className="Important"> {props.value}</button>;
-};
-
-const NotImportant = (props) => {
-  return <button> {props.value}</button>;
+const TheButton = (props) => {
+  return <button style={props.style}> {props.value} </button>;
 };
 
 export default Buttons;

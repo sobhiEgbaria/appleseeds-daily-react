@@ -20,9 +20,9 @@ class App extends react.Component {
         <Ex2 /> 
         <Ex3 />
         <Ex4 />
-         <Ex6 />
+         <Ex5 />
         */}
-        <Ex5 />
+        <Ex6 />
       </>
     );
   }
