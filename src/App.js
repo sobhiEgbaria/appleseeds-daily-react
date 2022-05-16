@@ -5,7 +5,7 @@ import EX1 from "./ex/ex1";
 import Ex2 from "./ex/ex2";
 import Ex3 from "./ex/ex3";
 import Ex4 from "./ex/ex4";
-
+import Ex5 from "./ex/ex5";
 class App extends react.Component {
   constructor() {
     super();
@@ -18,9 +18,10 @@ class App extends react.Component {
         <EX1 />
         <Ex2 /> 
         <Ex3 />
+        <Ex4 />
         */}
 
-        <Ex4 />
+        <Ex5 />
       </>
     );
   }
