@@ -8,6 +8,7 @@ import Ex5 from "./ex/ex5";
 import Ex6 from "./ex/ex6";
 import Ex71 from "./ex/ex7.1";
 import Ex72 from "./ex/ex7.2";
+import Ex73 from "./ex/ex7.3";
 import StateAsProps from "./ex/state as props";
 import State from "./ex/state";
 class App extends react.Component {
@@ -27,7 +28,7 @@ class App extends react.Component {
          <Ex6 />
           <Ex71 />
         */}
-        <Ex72 />
+        <Ex73 />
       </>
     );
   }
