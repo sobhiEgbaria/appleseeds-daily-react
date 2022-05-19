@@ -7,6 +7,7 @@ const Box1 = () => {
     </div>
   );
 };
+
 const Box2 = () => {
   return (
     <div className="box2">

@@ -33,7 +33,7 @@ class ex73 extends React.Component {
   color = () => {
     return {
       num:
-        this.state.num == 0
+        this.state.num === 0
           ? { color: (this.state.color = "black") }
           : this.state.num > 0
           ? { color: (this.state.color = "green") }
@@ -43,7 +43,13 @@ class ex73 extends React.Component {
 
   render() {
     return (
-      <>
+      <div>
+        <button style={{ margin: "10px" }} onClick={this.increment}>
+          {this.state.increment}
+        </button>
+        <button style={{ margin: "10px" }} onClick={this.discernment}>
+          {this.state.discernment}
+        </button>
         <label
           style={{
             margin: "10px",
@@ -54,14 +60,7 @@ class ex73 extends React.Component {
         >
           {this.state.num}
         </label>
-
-        <button style={{ margin: "10px" }} onClick={this.increment}>
-          {this.state.increment}
-        </button>
-        <button style={{ margin: "10px" }} onClick={this.discernment}>
-          {this.state.discernment}
-        </button>
-      </>
+      </div>
     );
   }
 }

@@ -13,7 +13,7 @@ export default class ex72 extends Component {
     return (
       <>
         <div
-          className="box"
+          className="outbox"
           style={{
             width: "300px",
             height: "300px",

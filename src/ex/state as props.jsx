@@ -1,12 +1,12 @@
 import React from "react";
 
 // pass a state as props
-const Perant = (data) => {
-  data = {
+const Perant = (state) => {
+  state = {
     text: "gogo lolo",
   };
 
-  return <State name={data.text} />;
+  return <State name={state.text} />;
 };
 
 const State = (props) => {

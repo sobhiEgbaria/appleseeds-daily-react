@@ -11,6 +11,7 @@ import Ex72 from "./ex/ex7.2";
 import Ex73 from "./ex/ex7.3";
 import StateAsProps from "./ex/state as props";
 import State from "./ex/state";
+import Forms from "./ex/forms";
 class App extends react.Component {
   constructor() {
     super();
@@ -25,10 +26,12 @@ class App extends react.Component {
         <Ex3 />
         <Ex4 />
          <Ex5 />
-         <Ex6 />
-          <Ex71 />
-        */}
+        <Ex6 />
+        <Ex71 />
         <Ex73 />
+      */}
+
+        <Forms />
       </>
     );
   }

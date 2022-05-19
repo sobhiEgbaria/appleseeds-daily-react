@@ -27,27 +27,27 @@
 
 //anther solution by setStatus with class
 
-// import React from "react";
-// class ex71 extends React.Component {
-//   data = {
-//     text: "increment",
-//     num: 0,
-//   };
+import React from "react";
+class ex71 extends React.Component {
+  data = {
+    text: "increment",
+    num: 0,
+  };
 
-//   change = () => {
-//     this.setState((prev) => {
-//      return { num: this.data.num++};
-//     });
-//   };
+  change = () => {
+    this.setState((prev) => {
+      return { num: this.data.num++ };
+    });
+  };
 
-//   render() {
-//     return (
-//       <>
-//         <button onClick={this.change}>{this.data.text}</button>
-//         <label htmlFor="">{this.data.num}</label>
-//       </>
-//     );
-//   }
-// }
+  render() {
+    return (
+      <>
+        <button onClick={this.change}>{this.data.text}</button>
+        <label htmlFor="">{this.data.num}</label>
+      </>
+    );
+  }
+}
 
-// export default ex71;
+export default ex71;
