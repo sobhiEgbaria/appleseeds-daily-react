@@ -28,10 +28,10 @@ class App extends react.Component {
          <Ex5 />
         <Ex6 />
         <Ex71 />
-        <Ex73 />
+        <Ex73 />  <Forms />
       */}
 
-        <Forms />
+        <Ex3 />
       </>
     );
   }
