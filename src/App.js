@@ -9,6 +9,8 @@ import Ex6 from "./ex/ex6";
 import Ex71 from "./ex/ex7.1";
 import Ex72 from "./ex/ex7.2";
 import Ex73 from "./ex/ex7.3";
+import Ex141 from "./ex/ex14.1";
+import Ex142 from "./ex/ex14.2";
 import StateAsProps from "./ex/state as props";
 import State from "./ex/state";
 import Forms from "./ex/forms";
@@ -31,7 +33,7 @@ class App extends react.Component {
         <Ex73 />  <Forms />
       */}
 
-        <Ex3 />
+        <Ex142 />
       </>
     );
   }
