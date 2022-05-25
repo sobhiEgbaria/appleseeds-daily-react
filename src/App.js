@@ -27,13 +27,14 @@ class App extends react.Component {
         <Ex2 /> 
         <Ex3 />
         <Ex4 />
-         <Ex5 />
+        <Ex5 />
         <Ex6 />
         <Ex71 />
-        <Ex73 />  <Forms />
-      */}
-
+        <Ex72 />  
+        <Ex73 />  
+        <Ex141/>
         <Ex142 />
+      */}
       </>
     );
   }
