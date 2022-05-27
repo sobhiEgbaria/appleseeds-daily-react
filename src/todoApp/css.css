@@ -1,0 +1,42 @@
+* {
+  margin: 2px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.oneToDo {
+  border: gray 1px solid;
+  width: fit-content;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+button,
+.updateForm {
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px;
+  width: 80px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.delete {
+  background-color: #f4511e;
+}
+
+.update {
+  background-color: green;
+}
+
+.text {
+  font-size: 25px;
+  text-align: left;
+}
+
+.as {
+  display: inline-block;
+}

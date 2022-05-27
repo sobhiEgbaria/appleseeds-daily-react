@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import TodoApp from "./todoApp";
+import "./css.css";
 
 class AddTodo extends Component {
   constructor(props) {
     super(props);
   }
 
-  state = {};
   render() {
     return (
       <form onSubmit={this.props.addTOdo}>

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import TodoApp from "./todoApp";
+import "./css.css";
+import Delete from "./delete";
 
 class PrintItem extends Component {
   constructor(props) {
@@ -8,9 +10,25 @@ class PrintItem extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         {this.props.theItems.map((item) => (
-          <div>{item}</div>
+          <div className="oneToDo" key={Math.random()}>
+            <input
+              type="text"
+              placeholder="update her..."
+              onChange={this.props.setText}
+              value={this.props.text}
+            />
+            <button
+              className="update"
+              onClick={() => this.props.updateButton(item.id)}
+            >
+              update
+            </button>
+
+            <Delete delete={this.props.delete} id={item.id} />
+            <div className="text">{item.name}</div>
+          </div>
         ))}
       </div>
     );
