@@ -14,8 +14,9 @@ import Ex142 from "./ex/ex14.2";
 import StateAsProps from "./ex/state as props";
 import State from "./ex/state";
 import Forms from "./ex/forms";
-import Translator from "./udemy/section3/app";
-import SeasonsApp from "./udemy/section4.5/SeasonsApp";
+import Translator from "./udemy/section-3/app";
+import SeasonsApp from "./udemy/section-4.5.6/SeasonsApp";
+import PicsApp from "./udemy/section-7-PicsProject/PicsApp";
 
 class App extends react.Component {
   constructor() {
@@ -40,8 +41,9 @@ class App extends react.Component {
         <Forms />
         <TodoApp />
         <Translator />
-      */}
         <SeasonsApp />
+      */}
+        <PicsApp />
       </>
     );
   }
