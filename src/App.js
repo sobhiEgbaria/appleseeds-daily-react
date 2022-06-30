@@ -16,6 +16,7 @@ import State from "./ex/state";
 import Forms from "./ex/forms";
 import Translator from "./udemy/section3/app";
 import SeasonsApp from "./udemy/section4.5/SeasonsApp";
+
 class App extends react.Component {
   constructor() {
     super();
