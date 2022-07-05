@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./imageList.css";
 
 class SearchBar extends Component {
   constructor(props) {
@@ -27,7 +28,7 @@ class SearchBar extends Component {
               value={this.state.term}
               onChange={this.onInputChange}
             />
-            <div className="ui button" onClick={this.onSubmit}>
+            <div className="ui button SearchBar" onClick={this.onSubmit}>
               Search
             </div>
           </div>
