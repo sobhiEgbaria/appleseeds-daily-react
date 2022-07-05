@@ -20,19 +20,14 @@ class SearchBar extends Component {
     return (
       <>
         <form onSubmit={this.onSubmit}>
-          <div class="ui fluid action input">
+          <div className="ui fluid action input">
             <input
               type="text"
               placeholder="Search..."
               value={this.state.term}
               onChange={this.onInputChange}
             />
-            <div
-              class="ui button"
-              onClick={(e) => {
-                console.log("clicked");
-              }}
-            >
+            <div className="ui button" onClick={this.onSubmit}>
               Search
             </div>
           </div>
